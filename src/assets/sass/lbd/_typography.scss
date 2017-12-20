@@ -1,0 +1,189 @@
+@font-face {
+    font-family: Proxima Nova;
+    src: url(assets/fonts/proxima-nova/proxima-nova-light.eot);
+    src: url(assets/fonts/proxima-nova/proxima-nova-lightd41d.eot?#iefix) format("embedded-opentype"), 
+    url(assets/fonts/proxima-nova/proxima-nova-light.woff2) format("woff2"), 
+    url(assets/fonts/proxima-nova/proxima-nova-light.woff) format("woff"), 
+    url(assets/fonts/proxima-nova/proxima-nova-light.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 300
+}
+
+@font-face {
+    font-family: Proxima Nova;
+    src: url(assets/fonts/proxima-nova/proxima-nova-light-italic.eot);
+    src: url(assets/fonts/proxima-nova/proxima-nova-light-italicd41d.eot?#iefix) format("embedded-opentype"), 
+    url(assets/fonts/proxima-nova/proxima-nova-light-italic.woff2) format("woff2"),
+     url(assets/fonts/proxima-nova/proxima-nova-light-italic.woff) format("woff"), 
+     url(assets/fonts/proxima-nova/proxima-nova-light-italic.ttf) format("truetype");
+    font-style: italic;
+    font-weight: 300
+}
+
+@font-face {
+    font-family: Proxima Nova;
+    src: url(assets/fonts/proxima-nova/proxima-nova-regular.eot);
+    src: url(assets/fonts/proxima-nova/proxima-nova-regulard41d.eot?#iefix) format("embedded-opentype"), 
+    url(assets/fonts/proxima-nova/proxima-nova-regular.woff2) format("woff2"), 
+    url(assets/fonts/proxima-nova/proxima-nova-regular.woff) format("woff"), 
+    url(assets/fonts/proxima-nova/proxima-nova-regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: Proxima Nova;
+    src: url(assets/fonts/proxima-nova/proxima-nova-regular-italic.eot);
+    src: url(assets/fonts/proxima-nova/proxima-nova-regular-italicd41d.eot?#iefix) format("embedded-opentype"),
+    url(assets/fonts/proxima-nova/proxima-nova-regular-italic.woff2) format("woff2"),
+     url(assets/fonts/proxima-nova/proxima-nova-regular-italic.woff) format("woff"),
+      url(assets/fonts/proxima-nova/proxima-nova-regular-italic.ttf) format("truetype");
+    font-style: italic;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: Proxima Nova;
+    src: url(assets/fonts/proxima-nova/proxima-nova-semibold.eot);
+    src: url(assets/fonts/proxima-nova/proxima-nova-semiboldd41d.eot?#iefix) format("embedded-opentype"), 
+    url(assets/fonts/proxima-nova/proxima-nova-semibold.woff2) format("woff2"), 
+    url(assets/fonts/proxima-nova/proxima-nova-semibold.woff) format("woff"), 
+    url(assets/fonts/proxima-nova/proxima-nova-semibold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 600
+}
+
+@font-face {
+    font-family: Proxima Nova;
+    src: url(assets/fonts/proxima-nova/proxima-nova-semibold-italic.eot);
+    font-style: italic;
+    font-weight: 600
+}
+
+@font-face {
+    font-family: Colfax;
+    src: url(assets/fonts/colfax/colfax-web-light.eot);
+    src: url(assets/fonts/colfax/colfax-web-lightd41d.eot?#iefix) format("embedded-opentype"), 
+    url(assets/fonts/colfax/colfax-web-light.woff) format("woff");
+    font-style: normal;
+    font-weight: 300
+}
+
+@font-face {
+    font-family: Colfax;
+    src: url(assets/fonts/colfax/colfax-web-medium.eot);
+    src: url(assets/fonts/colfax/colfax-web-mediumd41d.eot?#iefix) format("embedded-opentype"), 
+    url(assets/fonts/colfax/colfax-web-medium.woff) format("woff");
+    font-style: normal;
+    font-weight: 600
+}
+
+
+h1, h2, h3, h4, p {
+    margin-top: 0;
+    -webkit-font-smoothing: antialiased;
+}
+body,
+h1, .h1, 
+h2, .h2, 
+h3, .h3, 
+h4, .h4, 
+h5, .h5, 
+h6, .h6, 
+p, 
+.navbar, 
+.brand, 
+.btn-simple,
+.alert, 
+a, 
+.td-name, 
+td,
+button.close{
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+     font-family: Colfax,Proxima Nova,Helvetica,sans-serif;
+    font-weight: $font-weight-normal;
+    color: #546b81;
+
+}
+h1, h2 {
+    font-family: Colfax,Proxima Nova,Helvetica,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4{
+    font-weight: $font-weight-light;
+    //margin: $margin-large-vertical 0 $margin-base-vertical;
+    color: $color-h1;
+
+}
+
+h1, .h1 {
+    font-size: $font-size-h1;
+}
+h2, .h2{
+    font-size: $font-size-h2;
+}
+h3, .h3{
+    font-size: $font-size-h3;
+    margin: 20px 0 10px;
+}
+h4, .h4{
+    font-size: $font-size-h4;
+    line-height: 30px;
+}
+h5, .h5 {
+    font-size: $font-size-h5;
+    margin-bottom: 15px;
+}
+h6, .h6{
+    font-size: $font-size-h6;
+    font-weight: $font-weight-bold;
+    text-transform: uppercase;
+}
+p{
+    font-size: $font-paragraph;
+    line-height: $line-height-general;
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
+    color: $dark-gray;
+    font-weight: $font-weight-light;
+    line-height: $line-height-general;
+}
+
+h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
+    font-size: 60%;
+}
+
+h1 .subtitle{
+    display: block;
+    margin: 0 0 $margin-large-vertical;   
+}
+
+.text-muted{
+    color: #9A9A9A;
+}
+.text-primary, .text-primary:hover{
+    color: #1D62F0 !important;
+}
+.text-info, .text-info:hover{
+    color: $info-color !important;
+}
+.text-success, .text-success:hover{
+    color: $success-color !important;
+}
+.text-warning, .text-warning:hover{
+    color: $warning-color !important;
+}
+.text-danger, .text-danger:hover{
+    color: $danger-color !important;
+}
+
+
+
+.titl1-h1{
+    margin-bottom: 27px;
+    font-size: 30px;
+    line-height: 40px;
+}

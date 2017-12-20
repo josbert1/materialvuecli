@@ -1,0 +1,138 @@
+.style-guide-header {
+    font-family: Colfax,Proxima Nova,Helvetica,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    position: fixed;
+    height: 100%;
+    min-width: 240px;
+    padding-bottom: 90px;
+    overflow: auto;
+    background-color: #fff;
+    border-right: 1px solid #e9ecef;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    -webkit-overflow-scrolling: touch;
+}
+.style-guide-header .logo {
+    background-color: transparent;
+    border: 0;
+    color: transparent;
+    font: 0/0 a;
+    text-shadow: none;
+    position: relative;
+    display: block;
+    height: 120px;
+    background: url(assets/img/logo.svg) no-repeat 50%;
+    border-bottom: 1px solid #e9ecef;
+}
+
+
+.style-guide-header a {
+    position: relative;
+    display: block;
+    padding: 20px;
+    color: #546b81;
+}
+.style-guide-header .is-active a, .style-guide-header .is-active a:hover {
+    color: #1a82e2;
+}
+
+.link, a {
+    color: #489be8;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+ol, ul {
+    font-size: 13px;
+    line-height: 20px;
+}
+ol, ul {
+    list-style: none;
+}
+.style-guide-header li {
+    border-bottom: 1px solid #e9ecef;
+}
+.style-guide-header .child {
+    display: none;
+    padding: 6px 0;
+    background-color: #fbfbfc;
+    border-top: 1px solid #e9ecef;
+}
+.style-guide-header .child li {
+    border-bottom: 0;
+}
+.style-guide-header .child a {
+    padding: 6px 27px;
+}
+
+.style-guide-page-nav {
+    z-index: 1010;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #fff;
+    border-bottom: 1px solid #e9ecef;
+}
+.style-guide-page-nav .return-top {
+    display: block;
+    width: 60px;
+    padding: 0 20px;
+    color: #546b81;
+    border-right: 1px solid #e9ecef;
+}
+
+
+.style-guide-page-nav a {
+    display: block;
+    padding: 20px;
+}
+.style-guide-page-nav .return-top .sg-icon {
+    display: block;
+    font-size: 20px;
+    line-height: 60px;
+    transform: rotate(180deg);
+}
+.style-guide-page-nav .breadcrumb, .style-guide-page-nav .tab-wrapper {
+    font-family: Colfax,Proxima Nova,Helvetica,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+.style-guide-page-nav .breadcrumb li {
+    padding: 20px;
+}
+
+
+.breadcrumb li {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 20px;
+}
+.style-guide-page-nav .tab-wrapper {
+    border-bottom: 0;
+}
+.style-guide-page-nav .tab {
+    padding: 0;
+}
+.style-guide-page-nav a {
+    display: block;
+    padding: 20px;
+}
+
+.tab {
+    display: flex;
+    padding: 20px 30px 18px;
+    margin-bottom: -1px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.tab-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.style-guide-component h1, .style-guide-component h2 {
+    padding-top: 90px;
+}
